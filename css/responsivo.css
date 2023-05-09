@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 800px) {
     
     .cont-mpas{
         display: inline-block;
@@ -31,9 +31,9 @@
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 605px) {
     
-    section h2 {
+    .contatos h2 {
         font-size: 23px;
         letter-spacing: none;
     }
