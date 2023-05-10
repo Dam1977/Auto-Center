@@ -112,6 +112,17 @@
 
 }
 
+@media screen and (max-width: 500px) {
+    
+    .menu-burguer {
+        margin-left: 10px;
+    }
+
+}
+
+
+
+
 
 
 
