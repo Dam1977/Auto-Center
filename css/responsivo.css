@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     .menu{
         display: none;
         flex-direction: column;
@@ -38,6 +38,98 @@
         letter-spacing: 0;
     }
 
-    
 }
 
+@media screen and (max-width: 3000px) {
+    
+    .menu-burguer {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .menu-burguer {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 2100px) {
+    
+    .logo img  {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    
+    .logo img  {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+    
+    .logo img  {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .logo img  {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    
+    .logo-serve img {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    
+    section h2 {
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    
+    h1 {
+       font-size: 1.5em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
