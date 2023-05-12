@@ -49,10 +49,14 @@
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1450px) {
     
     .menu-burguer {
         display: block;
+    }
+
+    .menu {
+        display: none;
     }
 
 }
@@ -144,6 +148,17 @@
   }
 
 }
+
+@media screen and (max-width: 2300px) {
+    
+    .logo img {
+        
+       width: 290px;
+      
+  }
+
+}
+
 
 
 
