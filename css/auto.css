@@ -3,14 +3,16 @@
     box-sizing: border-box;
     list-style: none;
 }
+
 /*CORPO DO SITE*/
 body {
     margin: 0;
     font-family: Helvetica;
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(6, 19, 131, 0.993), rgb(139, 29, 29));
     color: #000;
-    
+
 }
+
 /*CABEÇALHO DO SITE*/
 header {
     background: #fff;
@@ -50,7 +52,7 @@ header {
     height: 35px;
     opacity: 0;
     cursor: pointer;
-   
+
 }
 
 
@@ -71,22 +73,22 @@ header {
     transition: all ease .2s;
 }
 
-.menu-burguer .menu-faketrigger:checked ~ .menu-lines span {
+.menu-burguer .menu-faketrigger:checked~.menu-lines span {
     background-color: #000;
 }
 
-.menu-burguer .menu-faketrigger:checked ~ .menu-lines span:nth-child(1){
+.menu-burguer .menu-faketrigger:checked~.menu-lines span:nth-child(1) {
     transform-origin: 0% 0%;
     transform: rotate(45deg) scaleX(1.25);
 }
 
-.menu-burguer .menu-faketrigger:checked ~ .menu-lines span:nth-child(2){
+.menu-burguer .menu-faketrigger:checked~.menu-lines span:nth-child(2) {
     opacity: 0;
 }
 
-.menu-burguer .menu-faketrigger:checked ~ .menu-lines span:nth-child(3){
+.menu-burguer .menu-faketrigger:checked~.menu-lines span:nth-child(3) {
     transform-origin: 0% 100%;
-    transform: rotate(-45deg)  scaleX(1.25);
+    transform: rotate(-45deg) scaleX(1.25);
 }
 
 .menu-burguer ul {
@@ -101,16 +103,16 @@ header {
     margin-left: -300px;
     transition: all ease .2s;
     border-radius: 5px;
-   
+
 }
 
-.menu-burguer .menu-faketrigger:checked ~ ul {
+.menu-burguer .menu-faketrigger:checked~ul {
     margin-left: 0;
 }
 
 .menu-burguer ul li {
     padding: 10px 30px;
-    
+
 }
 
 .menu-burguer ul li a {
@@ -125,6 +127,7 @@ header {
     color: #f1f1f1;
     font-weight: bold;
 }
+
 /*TÉRMINO MENU HAMBURGUER*/
 
 .menu {
@@ -318,7 +321,7 @@ section h2 {
     background: rgba(42, 50, 155, 0.411);
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .contatos {
@@ -339,12 +342,12 @@ section h2 {
 .contatos h3 {
     color: white;
     font-size: 30px;
-  
+
 }
 
 .contatos p {
     font-size: 15px;
-   
+
 }
 
 .text {
@@ -409,13 +412,9 @@ footer {
     text-align: center;
     color: white;
     border-top: 5px solid blue;
-    
+
 }
 
 .logo-rodape {
     padding: 100px;
 }
-
-
-
-
