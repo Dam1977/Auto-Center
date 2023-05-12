@@ -50,6 +50,7 @@ header {
     height: 35px;
     opacity: 0;
     cursor: pointer;
+   
 }
 
 
@@ -71,7 +72,7 @@ header {
 }
 
 .menu-burguer .menu-faketrigger:checked ~ .menu-lines span {
-    background-color: #fff;
+    background-color: #000;
 }
 
 .menu-burguer .menu-faketrigger:checked ~ .menu-lines span:nth-child(1){
@@ -94,7 +95,7 @@ header {
     left: 0;
     top: 0;
     width: 300px;
-    height: calc(30vh - 50px);
+    height: calc(50vh - 50px);
     padding-top: 80px;
     background-color: rgba(0, 0, 0, 0.42);
     margin-left: -300px;
@@ -114,8 +115,8 @@ header {
 
 .menu-burguer ul li a {
     text-decoration: none;
-    color: #fff;
-    
+    color: #FFF;
+    font-weight: bold;
     font-size: 22px;
     transition: all ease .3s;
 }
