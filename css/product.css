@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(6, 19, 131, 0.993), rgb(139, 29, 29));
+    /* color: #fff; */
+    
+}
+
+header {
+    border-bottom: solid 30px rgb(12, 12, 187);
+    border-top: solid 30px rgb(187, 12, 12);
+}
+
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 100%;
+    text-align: center;
+}
+
+.logo  img{
+    width: 450px;
+}
+
+
+
+
+.container .search {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+  }
+
+  .container .search input {
+    width: 80%;
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    outline: none;
+    color: #fff;
+   }
+  
+  .container .search input::placeholder {
+    color: #ccc;
+    font-weight: 500;
+  }
+.container .search {
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+section{
+    display: inline-block;
+    margin-top: 100px;
+    /* border: 1px solid yellow; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 400px; */
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h1{
+    width: 100%;
+    font-size: 60px;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 15px;
+}
+
+.products-list {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.product {
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: 1%;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 100px;
+    padding: 3px 0px;
+}
+
+.product img {
+    width: 300px;
+}
+
+.product h3 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.product p {
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(0, 0, 116);
+    letter-spacing: 3px;
+}
+
+.product-list .zap {
+    width: 100px;
+}
+
+footer {
+    margin-top: 100px;
+    height: 450px;
+    background-image: linear-gradient(180deg, black, blue, black);
+    text-align: center;
+    color: white;
+    border-top: 5px solid blue;
+    
+  }
+  
+  .logo-rodape {
+    padding: 100px;
+  }
+
+
+
+@media screen and (max-width: 2000px) {
+    
+    .product {
+       width: 100%; 
+       
+  }
+    section h1 {
+        font-size: 35px;
+    }
+
+    .container .search input {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .logo  img{
+        width: 350px;
+    }
+    
+    
+}
+
+
+
+

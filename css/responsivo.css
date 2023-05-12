@@ -103,6 +103,15 @@
         margin-left: 10px;
     }
 
+    #whats {
+        display: none;
+    }
+
+    #fone {
+        display: none;
+    }
+
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -135,6 +144,14 @@
   }
 
 }
+
+
+
+
+
+
+
+
 
    
   

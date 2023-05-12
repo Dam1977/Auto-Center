@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product.css">
+    <title>Produtos</title>
+</head>
+
+<body>
+    <!---->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.PNG" alt="Aqui Pneus">
+            </div>
+        </nav>
+    </header>
+    <!---->
+    <section>
+        <h1>Nossos Produtos</h1>
+        <div class="container">
+            <div class="search">
+                <input type="text" name="" id="find" placeholder="Pesquise aqui...." onkeyup="search()">
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Remold 175/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+            <div class="product">
+                <img src="img/pneu.PNG" alt="">
+                <h3>Pneu Novo 165/60/13</h3>
+                <p>R$ 300</p>
+                <a href="https://wa.me/5511945093806?" target="_blank"><img class="zap" src="img/whats.png"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- javascript -->
+    <script type="text/javascript">
+        function search(argument) {
+            let filter = document.getElementById('find').value.toUpperCase();
+            let item = document.querySelectorAll('.product');
+            let l = document.getElementsByTagName('h3');
+            for (var i = 0; i <= l.length; i++) {
+                let a = item[i].getElementsByTagName('h3')[0]; let value = a.innerHTML ||
+                    a.innerText || a.textContent; if (value.toUpperCase().indexOf(filter) > -1) {
+                        item[i].style.display = "";
+                    }
+                else {
+                    item[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+    <!---->
+    <footer>
+        <div class="logo-rodape">
+            <h1><u>AQUI PNEUS</u></h1>
+            <h2>Auto Center</h2>
+            <h3>Pneus Passeios e Vans</h3>
+            <h4>Novos e Remold</h4>
+        </div>
+        <b style="letter-spacing: 2.5px;">© Todos os direitos reservados 2023</b>
+    </footer>
+</body>
+
+</html>
