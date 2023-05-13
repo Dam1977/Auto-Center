@@ -1,10 +1,10 @@
-@media screen and (max-width: 1000px){
-    .menu{
+@media screen and (max-width: 1000px) {
+    .menu {
         display: none;
         flex-direction: column;
         align-items: flex-start;
-}
-  
+    }
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -12,19 +12,19 @@
         width: 100%;
     }
 
-    section h2{
+    section h2 {
         font-size: 35px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    
-    .cont-mpas{
+
+    .cont-mpas {
         display: inline-block;
         flex-direction: column;
         align-items: flex-start;
         margin-top: 50px;
-      
+
     }
 
     .cont-mpas h2 {
@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 605px) {
-    
+
     .contatos h2 {
         font-size: 23px;
         letter-spacing: 0;
@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width: 3000px) {
-    
+
     .menu-burguer {
         display: none;
     }
@@ -50,7 +50,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    
+
     .menu-burguer {
         display: block;
     }
@@ -61,62 +61,52 @@
 
 }
 
+/*MENU E LOGO*/
+@media screen and (max-width: 2300px) {
+
+    .logo img {
+        width: 290px;
+    }
+}
+
 @media screen and (max-width: 2100px) {
-    
-    .logo img  {
+
+    .logo img {
         width: 300px;
     }
-
 }
 
 @media screen and (max-width: 1000px) {
-    
-    .logo img  {
-       display: none;
-    }
+
     .menu {
         display: none;
     }
+
+    .logo img {
+        width: 300px;
+    }
 }
 
-@media screen and (max-width: 1250px) {
-    
-    .logo img  {
+@media screen and (max-width: 1500px) {
+
+    .logo img {
         width: 200px;
     }
 
 }
 
-@media screen and (max-width: 1450px) {
-    
-    .logo img  {
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-}
-
-
-@media screen and (max-width: 1000px) {
-    
-    .logo img  {
-        width: 300px;
-    }
-
-}
-
 @media screen and (max-width: 900px) {
-    
+
     .logo-serve img {
         width: 300px;
     }
 
 }
 
+/*TÉRMINO MENU E LOGO*/
+
 @media screen and (max-width: 500px) {
-    
+
     .menu-burguer {
         margin-left: 10px;
     }
@@ -133,55 +123,32 @@
 }
 
 @media screen and (max-width: 1200px) {
-    
-      .container .search  {
+
+    .container .search {
         display: grid;
-        margin-left: 300px;      
+        margin-left: 300px;
         font-size: 1.5em;
     }
 
 }
 
 @media screen and (max-width: 1200px) {
-    
-    .search imput  {
-      display: none;
-  }
+
+    .search imput {
+        display: none;
+    }
 
 }
 
 @media screen and (max-width: 1200px) {
-    
+
     .product-list .product {
         display: inline-flex;
         flex-flow: nowrap;
         justify-content: space-between;
         align-items: center;
-       
-      
-  }
+
+
+    }
 
 }
-
-@media screen and (max-width: 2300px) {
-    
-    .logo img {
-        
-       width: 290px;
-      
-  }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-   
-  
