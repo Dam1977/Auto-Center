@@ -61,39 +61,7 @@
 
 }
 
-/*MENU E LOGO*/
-/* @media screen and (max-width: 1000px) {
 
-    .menu {
-        display: none;
-    }
-
-    .logo img {
-        width: 300px;
-    }
-} */
-
-@media screen and (max-width: 1500px) {
-
-    .logo img {
-        width: 100px;
-    }
-}
-
-@media screen and (max-width: 2100px) {
-
-    .logo img {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width: 2300px) {
-
-    .logo img {
-        width: 290px;
-    }
-}
-/*TÉRMINO MENU E LOGO*/
 
 
 @media screen and (max-width: 900px) {
