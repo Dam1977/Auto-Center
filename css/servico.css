@@ -95,21 +95,9 @@ section h2{
 
 }
 
-footer {
-    margin-top: 100px;
-    height: 450px;
-    background-image: linear-gradient(180deg, black, blue, black);
-    text-align: center;
-    color: white;
-    border-top: 5px solid blue;
-    
+.colfooter p {
+    height: 2em;
 }
-
-.logo-rodape {
-    padding: 100px;
-    line-height: 2;
-}
-
 
 
 

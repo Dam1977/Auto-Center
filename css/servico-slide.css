@@ -1,0 +1,293 @@
+      body {
+          margin: 0;
+          text-align: center;
+          background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(6, 19, 131, 0.993), rgb(139, 29, 29));
+          height: auto;
+          font-family: Helvetica;
+
+
+      }
+
+      header {
+          border-top: solid 30px rgb(12, 12, 187);
+          border-bottom: solid 30px rgb(187, 12, 12);
+          margin-bottom: 100px;
+      }
+
+      .navbar img {
+          width: 30px;
+      }
+
+      .navbar a {
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          text-align: left;
+      }
+
+      .voltar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: left;
+      }
+
+      .slide-controller:nth-child(1):checked~.slide-show .slides-list {
+          --selected-item: 0;
+      }
+
+      .slide-controller:nth-child(2):checked~.slide-show .slides-list {
+          --selected-item: 1;
+      }
+
+      .slide-controller:nth-child(3):checked~.slide-show .slides-list {
+          --selected-item: 2;
+      }
+
+      .slide-controller:nth-child(4):checked~.slide-show .slides-list {
+          --selected-item: 3;
+      }
+
+      .slide-controller:nth-child(5):checked~.slide-show .slides-list {
+          --selected-item: 4;
+      }
+
+      .slide-controller:nth-child(6):checked~.slide-show .slides-list {
+          --selected-item: 5;
+      }
+
+      .slide-show {
+          overflow: hidden;
+      }
+
+      .slides-list {
+
+          --selected-item: 0;
+          --total-items: 6;
+          list-style-type: none;
+          margin: 10px 0;
+          padding: 0;
+          position: relative;
+          left: calc(var(--selected-item) * -100%);
+          width: calc(var(--total-items) * 100%);
+          transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+          display: grid;
+          grid-auto-flow: column;
+          grid-auto-columns: 1fr;
+      }
+
+      .navbar {
+          display: flex;
+          flex-flow: row wrap;
+          height: 200px;
+          background: #fff;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .logo {
+          flex: 100%;
+          text-align: center;
+      }
+
+      .logo img {
+          width: 450px;
+      }
+
+      .slide p {
+          font-size: 1.2em;
+          margin-left: 10%;
+          margin-right: 10%;
+          color: #fff;
+          font-weight: bold;
+          line-height: 2;
+          letter-spacing: 2px;
+          text-align: center;
+      }
+
+      li img {
+          border-radius: 10px;
+      }
+
+      /*RODAPÉ*/
+      .main_footer {
+          background: linear-gradient(to right, #0d0086, red);
+          color: #fff;
+          font-size: 0.875em;
+          margin-top: 80px;
+      }
+
+      .main_footer .content {
+          float: left;
+          width: 90%;
+          margin: 0 5%;
+          padding: 5em 0;
+      }
+
+      .container {
+          float: left;
+          width: 100%;
+      }
+
+      .colfooter {
+          width: 100%;
+          height: auto;
+          float: left;
+          margin-bottom: 2em;
+      }
+
+      .colfooter ul {
+          width: 100%;
+          float: left;
+      }
+
+      .colfooter ul li {
+          padding: 0.2em 0em;
+      }
+
+      .colfooter ul li a {
+          text-decoration: none;
+          color: #ffffff;
+          font-size: 1em;
+      }
+
+      .colfooter ul li a i {
+          font-size: 0.5em;
+      }
+
+      .colfooter ul li a:hover {
+          text-decoration: underline;
+      }
+
+      .colfooter .titleFooter {
+          font-family: Helvetica, sans-serif;
+          font-size: 1.5em;
+          color: #ffffff;
+          padding-bottom: 0.5em;
+          margin-bottom: 0.5em;
+          border-bottom: 1px #ffffff solid;
+      }
+
+      .colfooter ul li a {
+          display: block;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.2em;
+          height: 30px;
+          margin-right: 12%;
+
+      }
+
+      .colfooter ul li {
+          list-style: none;
+      }
+
+      .colfooter p {
+          font-family: 'Helvetica';
+          color: #ffffff;
+          font-size: 1.2em;
+          height: 25px;
+      }
+
+
+      .colfooter i {
+          font-size: 20px;
+      }
+
+
+      .socials {
+          margin: 0;
+          padding: 0;
+          font-size: 40px;
+          list-style: none;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: -20px;
+
+      }
+
+      .socials li {
+          margin: 0 10px;
+      }
+
+      .socials li a {
+          font-size: 1em;
+      }
+
+
+
+      .socials li a i:hover {
+          color: #010155;
+          transform: scale(1.3);
+      }
+
+      .socials a {
+          text-decoration: none;
+          color: #fff;
+      }
+
+      .socials a i {
+          font-size: 1.5em;
+          color: #fff;
+          margin-right: 0;
+          transition: 0.5s;
+      }
+
+
+      .titleFooter {
+          text-align: center;
+      }
+
+      .main_footer_copy {
+          background: linear-gradient(to right, #0d0086, red);
+          width: 100%;
+          float: left;
+          text-align: center;
+          padding: 1.5em 0em;
+      }
+
+      .main_footer_copy p {
+          font-family: 'Helvetica';
+          font-size: 1em;
+          color: #e1e0e0;
+          height: 10px;
+      }
+
+      .main_footer_copy .m-b-footer {
+          margin-bottom: 0.5em;
+      }
+
+      .main_footer_copy .by {
+          font-size: 0.96em;
+      }
+
+      .main_footer_copy .by a {
+          color: #fff;
+          text-decoration: none;
+      }
+
+      .main_footer_copy .by a:hover {
+          text-decoration: underline;
+      }
+
+      .main_footer_copy .by i {
+          font-size: 0.96em;
+          margin-right: 3px;
+          color: #e82626;
+      }
+
+      /*Responsivo*/
+      /*768PX BREAKPOINT*/
+      @media (min-width:48em) {
+          .colfooter {
+              width: 30%;
+              margin-right: 5%;
+              margin-bottom: 0;
+          }
+
+          .colfooter:nth-of-type(3n+0) {
+              margin-right: 0;
+              border-right: 0;
+          }
+      }
