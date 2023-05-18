@@ -7,7 +7,7 @@
 
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 800px) {
     .card {
         width: 100%;
     }
@@ -17,7 +17,14 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
+
+    section h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
 
     .cont-mpas {
         display: inline-block;
@@ -67,13 +74,13 @@
         width: 350px;
     }
 
-    section h2{
-       margin-top: -35px;
+    section h2 {
+        margin-top: -35px;
         margin-bottom: 10px;
         font-size: 1.5em;
     }
 
-   
+}
 
 
 
@@ -127,6 +134,16 @@
         justify-content: space-between;
         align-items: center;
 
+
+    }
+
+}
+
+@media screen and (max-width: 1110px) {
+
+    .text-box {
+      
+        font-size: 10px;
 
     }
 

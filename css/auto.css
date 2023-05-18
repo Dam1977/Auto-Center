@@ -91,9 +91,7 @@ header {
     height: 35px;
     opacity: 0;
     cursor: pointer;
-
 }
-
 
 .menu-burguer .menu-lines {
     position: absolute;
@@ -142,7 +140,6 @@ header {
     margin-left: -300px;
     transition: all ease .2s;
     border-radius: 5px;
-
 }
 
 .menu-burguer .menu-faketrigger:checked~ul {
