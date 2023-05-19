@@ -6,9 +6,15 @@
     font-family: Helvetica;
 }
 
+.navbar {
+    border-bottom: 20px solid red;
+    border-top: 20px solid blue;
+}
+
 .navbar img {
     width: 500px;
     /* align-items: left; */
+    
 }
 
 .navbar a {
@@ -31,6 +37,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 
