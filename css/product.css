@@ -1,16 +1,36 @@
-*{
+* {
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
-    
+
 }
 
 body {
     margin: 0;
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(6, 19, 131, 0.993), rgb(139, 29, 29));
     /* color: #fff; */
-    
+
+}
+
+.voltar img {
+    width: 27px;
+    margin-left: -67%;
+}
+
+.voltar a {
+    display: block;
+    text-decoration: none;
+    color:rgb(173, 236, 47)
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.voltar img a {
+    display: ;
+    align-items: left;
+    text-align: left;
 }
 
 header {
@@ -28,12 +48,12 @@ header {
     align-items: center;
 }
 
-.logo{
+.logo {
     flex: 100%;
     text-align: center;
 }
 
-.logo  img{
+.logo img {
     width: 450px;
 }
 
@@ -44,9 +64,9 @@ header {
     display: flex;
     padding: 30px 0px;
     justify-content: space-between;
-  }
+}
 
-  .container .search input {
+.container .search input {
     width: 80%;
     padding: 10px 15px;
     background: transparent;
@@ -57,20 +77,21 @@ header {
     letter-spacing: 3px;
     outline: none;
     color: #fff;
-   }
-  
-  .container .search input::placeholder {
+}
+
+.container .search input::placeholder {
     color: #ccc;
     font-weight: 500;
-  }
+}
+
 .container .search {
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
-section{
+section {
     display: inline-block;
     margin-top: 100px;
     /* border: 1px solid yellow; */
@@ -82,7 +103,7 @@ section{
     width: 90%;
 }
 
-section h1{
+section h1 {
     width: 100%;
     font-size: 60px;
     margin: 0;
@@ -128,21 +149,22 @@ section h1{
     width: 100px;
 }
 
-  @media screen and (max-width: 2300px){
-     .product  img{
+@media screen and (max-width: 2300px) {
+    .product img {
         width: 200px;
     }
-    
-    
+
+
 }
 
 
 @media screen and (max-width: 1280px) {
-    
+
     .product {
-       width: 100%; 
-       
-  }
+        width: 100%;
+
+    }
+
     section h1 {
         font-size: 35px;
     }
@@ -151,17 +173,30 @@ section h1{
         padding: 10px 15px;
     }
 
-    
+
 }
 
-@media screen and (max-width: 800px){
-    .logo  img{
+@media screen and (max-width: 800px) {
+    .logo img {
         width: 350px;
     }
-    
-    
+
+
 }
 
+@media screen and (max-width: 360px) {
+    .logo img {
+        width: 250px;
+    }
 
 
+}
 
+@media screen and (max-width: 646px) {
+    section h1 {
+        font-size: 25px;
+        letter-spacing: 0;
+    }
+
+
+}

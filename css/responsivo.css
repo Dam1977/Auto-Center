@@ -270,3 +270,27 @@
         border-right: 0;
     }
 }
+
+@media screen and (max-width: 750px) {
+    .slides-list img {
+        width: 80%;
+    }
+
+    .slides-list p {
+        margin-top: 50px;
+    }
+
+    .content {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .menu li {
+        margin: 0;
+        padding: 0;
+        line-height: 60px;
+        font-size: 18px;
+    }
+}
