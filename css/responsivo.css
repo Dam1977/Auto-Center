@@ -20,27 +20,12 @@
         z-index: 100;
         background-color: var(--color2);
         transition: all 0.2s ease-in-out;
-        background-color: black;
     }
-
-    .menu li {
-        margin-top: 40px;
-    }
-
-    .menu li {
-        padding: 40px;
-    }
-
-    .open-menu,
-    .close-menu {
-        display: block;
-    }
-
-    #check:checked~.menu {
-        right: 0;
-    }
+    .menu li {margin-top: 40px;}
+    .menu li {padding: 40px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked~.menu {right: 0;}
 }
-
 
 @media screen and (max-width: 1086px) {
     .menu li {
@@ -286,14 +271,14 @@
 
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .navbar .menu li {
         margin: 0;
         padding: 0;
         line-height: 60px;
         font-size: 18px;
     }
-}
+} */
 
 @media screen and (max-width: 600px) {
     .container-servico {
