@@ -74,6 +74,10 @@
     .cont-mpas h2 {
         margin-top: 25px;
     }
+
+    .slide img {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 700px) {
