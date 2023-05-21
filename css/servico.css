@@ -29,7 +29,7 @@
           margin-left: 10px;
       }
 
-   
+
       .navbar img {
           width: 30px;
       }
@@ -122,7 +122,7 @@
       }
 
       .slide p {
-        margin-top: 30px;
+          margin-top: 30px;
           font-size: 1.2em;
           margin-left: 10%;
           margin-right: 10%;
@@ -138,67 +138,55 @@
       }
 
       .container-servico {
-        display: flex;
-        margin-top: 200px;
-        height: 250px;
-        width: 100%;
-        flood-opacity: 5%;
-        position: relative;
-        transform: translate(-50%,-50%);
-        top: 100%;
-        left: 50%;
-        overflow: hidden;
-        border: 20px solid #ffffff;
-        border-radius: 8px;
-        box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
-    }
+          display: flex;
+          margin-top: 200px;
+          height: 250px;
+          width: 100%;
+          flood-opacity: 5%;
+          position: relative;
+          transform: translate(-50%, -50%);
+          top: 100%;
+          left: 50%;
+          overflow: hidden;
+          border: 20px solid #ffffff;
+          border-radius: 8px;
+          box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+      }
 
-    .container-servico img {
-        width: 100%;
-       
-    }
-    
-    .wrapperser-servico {
-        width: 50%;
-        display: flex;
-        animation: slide 15s infinite;
-    }
-    @keyframes slide {
-       
-        0%{
-            transform: translateX(0);
-        }
-        25%{
-            transform: translateX(0);
-        }
-        30%{
-            transform: translateX(-100%);
-        }
-        50%{
-            transform: translateX(-100%);
-        }
-         /* 55%{
-            transform: translateX(-200%);
-        } */
-        /* 75%{
-            transform: translateX(-200%);
-        } */
-        /* 80%{
-            transform: translateX(-300%);
-        }
-        95%{
-            transform: translateX(-300%);
-        }
-        100%{
-            transform: translateX(-300%);
-        } */
-    
-          
-    }   
+      .container-servico img {
+          width: 100%;
+
+      }
+
+      .wrapperser-servico {
+          width: 50%;
+          display: flex;
+          animation: slide 15s infinite;
+      }
+
+      @keyframes slide {
+
+          0% {
+              transform: translateX(0);
+          }
+
+          25% {
+              transform: translateX(0);
+          }
+
+          30% {
+              transform: translateX(-100%);
+          }
+
+          50% {
+              transform: translateX(-100%);
+          }
+
+      }
 
       /*RODAPÉ*/
 
-         .main_footer {
+      .main_footer {
           background: linear-gradient(to right, #0d0086, red);
           color: #fff;
           font-size: 0.875em;

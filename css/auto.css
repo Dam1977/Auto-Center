@@ -102,6 +102,7 @@ body {
     display: none;
 }
 
+/*DEIXANDO RESPONSIVO*/
 @media(max-width: 610px) {
     .menu {
         flex-direction: column;
@@ -141,10 +142,6 @@ body {
         width: 200px;
     }
 }
-
-/*TÉRMINO MENU HAMBURGUER*/
-
-
 
 /*CARDS DO SITE*/
 section {
