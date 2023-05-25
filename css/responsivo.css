@@ -120,157 +120,155 @@
 
 }
 
-    @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
 
-        .logo img {
-            width: 350px;
-        }
+    .logo img {
+        width: 350px;
+    }
 
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .logo-serve img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #whats {
+        display: none;
+    }
+
+    #fone {
+        display: none;
     }
 
 
+}
 
-    @media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
 
-        .logo-serve img {
-            width: 300px;
-        }
+    .container .search {
+        display: grid;
+        margin-left: 300px;
+        font-size: 1.5em;
     }
 
-    @media screen and (max-width: 500px) {
+}
 
-        #whats {
-            display: none;
-        }
+@media screen and (max-width: 1200px) {
 
-        #fone {
-            display: none;
-        }
-
-
+    .search imput {
+        display: none;
     }
 
-    @media screen and (max-width: 1200px) {
+}
 
-        .container .search {
-            display: grid;
-            margin-left: 300px;
-            font-size: 1.5em;
-        }
+@media screen and (max-width: 1200px) {
 
-    }
-
-    @media screen and (max-width: 1200px) {
-
-        .search imput {
-            display: none;
-        }
-
-    }
-
-    @media screen and (max-width: 1200px) {
-
-        .product-list .product {
-            display: inline-flex;
-            flex-flow: nowrap;
-            justify-content: space-between;
-            align-items: center;
-
-
-        }
-
-    }
-
-    @media screen and (max-width: 1110px) {
-
-        .text-box a {
-
-            font-size: 10px;
-
-        }
-
-    }
-
-
-    @media screen and (max-width: 1110px) {
-        .logo a img {
-            width: 200px;
-        }
-    }
-
-    @media screen and (max-width: 1280px) {
-
-        .product {
-            width: 100%;
-
-        }
-
-        section h1 {
-            font-size: 35px;
-        }
-
-        .container .search input {
-            padding: 10px 15px;
-        }
+    .product-list .product {
+        display: inline-flex;
+        flex-flow: nowrap;
+        justify-content: space-between;
+        align-items: center;
 
 
     }
 
-    @media screen and (max-width: 800px) {
-        .logo img {
-            width: 350px;
-        }
+}
 
-        section .titulo {
-            font-size: 16px;
-        }
+@media screen and (max-width: 1110px) {
 
-    }
+    .text-box a {
 
-    /*Responsivo FOOTER*/
-    /*768PX BREAKPOINT*/
-    @media (min-width:48em) {
-        .colfooter {
-            width: 30%;
-            margin-right: 5%;
-            margin-bottom: 0;
-        }
-
-        .colfooter:nth-of-type(3n+0) {
-            margin-right: 0;
-            border-right: 0;
-        }
-    }
-
-    @media screen and (max-width: 750px) {
-        .slides-list img {
-            width: 80%;
-        }
-
-        .slides-list p {
-            margin-top: 50px;
-        }
-
-        .content {
-            margin-top: 50px;
-        }
+        font-size: 10px;
 
     }
 
-    @media screen and (max-width: 600px) {
-        .container-servico {
-            margin-top: 100px;
-            height: 10%;
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-        }
+}
+
+
+@media screen and (max-width: 1110px) {
+    .logo a img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .product {
+        width: 100%;
+
     }
 
-    @media screen and (max-width: 670px) {
-        span .titulo {
-            font-size: 20px;
-        }
+    section h1 {
+        font-size: 35px;
     }
 
- 
+    .container .search input {
+        padding: 10px 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .logo img {
+        width: 350px;
+    }
+
+    section .titulo {
+        font-size: 16px;
+    }
+
+}
+
+/*Responsivo FOOTER*/
+/*768PX BREAKPOINT*/
+@media (min-width:48em) {
+    .colfooter {
+        width: 30%;
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
+
+    .colfooter:nth-of-type(3n+0) {
+        margin-right: 0;
+        border-right: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .slides-list img {
+        width: 80%;
+    }
+
+    .slides-list p {
+        margin-top: 50px;
+    }
+
+    .content {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container-servico {
+        margin-top: 100px;
+        height: 10%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    span .titulo {
+        font-size: 20px;
+    }
+}
