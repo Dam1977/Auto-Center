@@ -1,5 +1,5 @@
 /*MENU HAMBURGUE*/
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 765px) {
     .menu {
         flex-direction: column;
         align-items: center;
@@ -120,13 +120,22 @@
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 900px) {
+
+    nav .logo img {
+        width: 300px;
+    }
+
+}
+
+
+/* @media screen and (max-width: 550px) {
 
     .logo img {
         width: 350px;
     }
 
-}
+} */
 
 
 
